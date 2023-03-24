@@ -10,9 +10,11 @@ int main(void) {
 
 	int numero = 4;
 
+	// function pronta = pow(x,y);  #include <math.h>
+
 	//printf("%lli", potenciaint(numero,2));
 	//printf("%.7f", potencia(numero, 2));
-	printf("%lli", potenciaRecursiva(numero,4));
+	printf("%lli\n", potenciaRecursiva(numero,4));
 
 	return 0;
 }
