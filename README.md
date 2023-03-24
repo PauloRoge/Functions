@@ -1,0 +1,2 @@
+# Functions
+funções prontas.  =D
