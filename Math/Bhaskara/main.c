@@ -14,7 +14,7 @@ int main() {
     char parametro[3] = { 'a', 'b', 'c' };
     int continuar = 1;
 
-    while (continuar)
+    while (continuar==1)
     {
         system("cls");
         for (int i = 0; i < 3; i++)
@@ -27,7 +27,8 @@ int main() {
         printf("\n\tx1 = %.2f\tx2 = %.2f\n\n", x1, x2);
         printf("Valor de delta: %.2f\n", delta);
         printf("\n\t(1)novamente (0)sair");
-        continuar=getch();
+
+        continuar=getche();
     }
     
     return 0;
