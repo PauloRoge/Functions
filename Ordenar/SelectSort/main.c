@@ -18,7 +18,7 @@ void selectSort(int* v, int N)
 {
 	for (int j = 0; j < N; j++)
 		for (int i = j + 1; i < N; i++)
-			if (v[i] < v[j]) //para tornar decrecente inverter para >
+			if (v[i] < v[j]) // (<)crescente, (>)decrescente.
 				trocaint(&v[i], &v[j]);
 }
 
