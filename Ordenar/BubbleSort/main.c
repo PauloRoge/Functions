@@ -19,10 +19,8 @@ void bubbleSort(int* v, int N)
 {
 	for (int j = N - 1; j > 0; j--)
 		for (int i = 0; i < j; i++)
-		{
 			if (v[i] > v[i + 1]) // para tornar decrescente trocar '>' por '<'.
 				trocaint(&v[i], &v[i + 1]);
-		}
 }
 
 void trocaint(int* a, int* b)

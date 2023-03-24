@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{b3e7fbdc-8e91-48fd-a0e6-f364b20a9808}</ProjectGuid>
-    <RootNamespace>SelectSort</RootNamespace>
+    <ProjectGuid>{0002c9a0-cceb-43aa-8287-0ab3ac8d1d30}</ProjectGuid>
+    <RootNamespace>Fatorial</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
