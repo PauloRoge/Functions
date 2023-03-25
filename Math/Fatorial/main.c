@@ -5,17 +5,18 @@ long long int fatorialRecursivo(int n);
 
 int main(void)
 {
-	int numero = 10;
-
-	printf("%lli", fatorialRecursivo(4));
+	printf("%lli", fatorial(5));
 }
 
 long long int fatorial(int n)
 {
-	if (n == 0)
-		return 0;
+	int resultado=n;
+	int i=1;
 
-	return n + fatorial(n - 1);
+	for (i = 1; i < n; i++)
+		resultado*= i;
+
+	return resultado;
 }
 
 long long int fatorialRecursivo(int n)
