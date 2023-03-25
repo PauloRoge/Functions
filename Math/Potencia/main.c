@@ -8,13 +8,13 @@ long long int potenciaRecursiva(int base, int expoente);
 //------------------------------------------------------
 int main(void) {
 
-	int numero = 4;
+	int numero = 2;
 
 	// function pronta = pow(x,y);  #include <math.h>
 
-	//printf("%lli", potenciaint(numero,2));
+	printf("%lli", potenciaint(numero,63));
 	//printf("%.7f", potencia(numero, 2));
-	printf("%lli\n", potenciaRecursiva(numero,4));
+	//printf("%lli\n", potenciaRecursiva(numero,4));
 
 	return 0;
 }
