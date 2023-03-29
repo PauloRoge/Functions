@@ -1,14 +1,26 @@
 #include <stdio.h>
-#define max 64
 
-int DecBin(int n);
+void BinDec(long long* num);  // converte o número binário para decimal
 
-int main(void) {
-	int decimal = 13;
+int main() {
+    long long num=101011;
+    
+    BinDec(&num);
 
-	printf("teste %i", DecBin(32));
+    printf("%lli\n", num);
+
+    return 0;
 }
-
-int DecBin(int n) {
+void BinDec(long long* bin)
+{
+    int decimal = 0, base = 1, resto;
+   
+    while (*bin > 0) {
+        resto = *bin % 10;
+        decimal += resto * base;
+        *bin /= 10;
+        base *= 2;
+    }
+    *bin = decimal;
 
 }
