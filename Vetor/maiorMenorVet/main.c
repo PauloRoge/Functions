@@ -13,7 +13,7 @@ int main(void) {
 
 	int a = 0;
 	int b = 0;
-	int vetor[50];
+	int vetor[MAX_SIZE];
 
 	vet_random(vetor, MAX_SIZE);
 
